@@ -12,7 +12,7 @@
 
 		<classes>
 			
-			<class name="ProFrameWork.ProFrameWork.FlipKartHomePageTest" />
+			<class name="ProFrameWork.ProFrameWork.IncidentPageTest" />
 	
 		</classes>
 

@@ -43,23 +43,18 @@ public class BaseTest {
 			driver.get(prop.getProperty("url"));
 			driver.manage().deleteAllCookies();
 			driver.manage().window().maximize();
-			
-			
+
 		}
-	
 
 	}
 
 	@AfterTest
 	public void TearDown() {
-if (driver!=null) {
-	
+		if (driver != null) {
 
-	
-	driver=null;
-	
-}
-	
+			driver = null;
+
+		}
 
 	}
 }

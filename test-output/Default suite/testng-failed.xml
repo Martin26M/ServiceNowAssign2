@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ProFrameWork.ProFrameWork.Base">
+      <class name="ProFrameWork.ProFrameWork.IncidentPageTest">
         <methods>
           <include name="Initialize"/>
+          <include name="incidentCheck"/>
+          <include name="TearDown"/>
         </methods>
-      </class> <!-- ProFrameWork.ProFrameWork.Base -->
+      </class> <!-- ProFrameWork.ProFrameWork.IncidentPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
